@@ -1,2 +1,2 @@
-# Something-mobile-app-server
-Server for the something app
+# Something mobile app server
+Server uses nodejs to allow for storage of animations
