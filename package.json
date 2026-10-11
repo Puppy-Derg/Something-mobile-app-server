@@ -1,0 +1,18 @@
+{
+  "name": "glyph-animator-repository",
+  "version": "2.1.0",
+  "description": "HTTPS-native, zero-dependency repository server for the Nothing Glyph Animator Android app. Animations are stored as gzip-compressed JSON documents in a SQLite database. Optional UPnP port mapping.",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev-cert": "bash generate-dev-cert.sh"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {},
+  "optionalDependencies": {
+    "nat-upnp-2": "^1.1.0"
+  }
+}
